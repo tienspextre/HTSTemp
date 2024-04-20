@@ -1,5 +1,5 @@
 #confirmationBox {
-    display: inline-flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -18,7 +18,7 @@
     height: 100%;
     background-color: #00000033; /* Semi-transparent black */
     z-index: 999; /* Ensure it's above other content */
-    display: block; /* Initially hidden */
+    display: none; /* Initially hidden */
 }
 
 .lam-bai {
