@@ -13,6 +13,7 @@
   top: 243px;
   left: 356px;
   display: none;
+  z-index: 1001;
 }
 
 .n-luyn-THPT-kt-thc .div {
@@ -1608,6 +1609,14 @@
   left: 978px;
 }
 
+.n-luyn-THPT-kt-thc .frame-31-1 {
+  position: absolute;
+  width: 236px;
+  height: 36px;
+  top: 370px;
+  left: 286px;
+}
+
 .n-luyn-THPT-kt-thc .frame-32 {
   height: 343px;
 }
@@ -1694,6 +1703,15 @@
   left: -3190px;
 }
 
+.n-luyn-THPT-kt-thc .line-5-1{
+  position: absolute;
+  width: 605px;
+  height: 1px;
+  top: 107px;
+  left: 1px;
+  object-fit: cover;
+}
+
 .n-luyn-THPT-kt-thc .group-11 {
   position: absolute;
   width: 235px;
@@ -1742,11 +1760,25 @@
   white-space: nowrap;
 }
 
-.n-luyn-THPT-kt-thc.text-wrapper-44-1 {
+.n-luyn-THPT-kt-thc .text-wrapper-44-1 {
   position: absolute;
   height: 29px;
   top: -1px;
   left: 76px;
+  font-family: "Inter", Helvetica;
+  font-weight: 100;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.n-luyn-THPT-kt-thc .text-wrapper-45-1 {
+  position: absolute;
+  height: 29px;
+  top: -1px;
+  left: 0;
   font-family: "Inter", Helvetica;
   font-weight: 100;
   color: #000000;
@@ -1940,3 +1972,31 @@
   flex: 0 0 auto;
 }
 
+.n-luyn-THPT-kt-thc .text-wrapper-40-1 {
+  width: 79px;
+  margin-right: -2px;
+  font-weight: var(--button-1-font-weight);
+  text-align: center;
+  position: relative;
+  margin-top: -1px;
+  font-family: var(--button-1-font-family);
+  color: #ffffff;
+  font-size: var(--button-1-font-size);
+  letter-spacing: var(--button-1-letter-spacing);
+  line-height: var(--button-1-line-height);
+  font-style: var(--button-1-font-style);
+}
+
+.n-luyn-THPT-kt-thc .text-wrapper-41-1 {
+  position: relative;
+  width: 77px;
+  margin-top: -1px;
+  font-family: var(--button-1-font-family);
+  font-weight: var(--button-1-font-weight);
+  color: #451544;
+  font-size: var(--button-1-font-size);
+  text-align: center;
+  letter-spacing: var(--button-1-letter-spacing);
+  line-height: var(--button-1-line-height);
+  font-style: var(--button-1-font-style);
+}
