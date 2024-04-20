@@ -1,0 +1,1628 @@
+body {
+	margin-left: 0;
+  margin-right: 0;
+	padding: 0;
+  position: relative;
+  width: 1920px;
+  height: 4000px;
+  justify-content: center;
+
+
+}
+#header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+#footer{
+  position: absolute;
+  top: 3700px;
+  left: 0;
+  width: 100%;
+  
+}
+.on-luyen-thpt {
+	background-color: #ffffff;
+  width: 1920px;
+  height: 3008px; 
+  margin: auto;
+
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+.on-luyen-thpt .div {
+  justify-content: center;
+
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 3508px; 
+  /* position: relative; */
+}
+
+.on-luyen-thpt .content-large {
+  /* position: absolute; */
+  width: 60px;
+  height: 60px;
+  top: 4234px;
+  left: -320px;
+}
+
+.on-luyen-thpt .frame-14 {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 0px 200px;
+    position: absolute;
+    top: 255px;
+    left: 0;
+  }
+  
+  .on-luyen-thpt .ellipse {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin-top: -6px;
+    margin-bottom: -14px;
+    margin-left: -6px;
+    object-fit: cover;
+  }
+  
+  .on-luyen-thpt .frame-15 {
+    display: inline-flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h2-font-family);
+    font-weight: var(--h2-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--h2-font-size);
+    text-align: center;
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+    white-space: nowrap;
+    font-style: var(--h2-font-style);
+  }
+  
+  .on-luyen-thpt .frame-16 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--hover);
+    border-radius: 100px;
+    border: none;
+  }
+  
+  .on-luyen-thpt .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-1-font-family);
+    font-weight: var(--button-1-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--button-1-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-letter-spacing);
+    line-height: var(--button-1-line-height);
+    white-space: nowrap;
+    font-style: var(--button-1-font-style);
+  }
+  
+  .on-luyen-thpt .vector-2 {
+    position: relative;
+    width: 10.18px;
+    height: 6px;
+  }
+  
+  .on-luyen-thpt .frame-17 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 100px;
+  }
+  
+  .on-luyen-thpt .vector-3 {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-1-font-family);
+    font-weight: var(--button-1-font-weight);
+    color: var(--blue);
+    font-size: var(--button-1-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-letter-spacing);
+    line-height: var(--button-1-line-height);
+    white-space: nowrap;
+    font-style: var(--button-1-font-style);
+  }
+  
+  .on-luyen-thpt .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .overlap-group-wrapper {
+    position: relative;
+    width: 1520px;
+    height: 60px;
+  }
+  
+  .on-luyen-thpt .overlap-group-2 {
+    position: relative;
+    height: 50px;
+  }
+.on-luyen-thpt .rectangle {
+    position: absolute;
+    width: 1520px;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: var(--light-grey);
+  }
+  
+  .on-luyen-thpt .frame-19 {
+    display: flex;
+    width: 683px;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .on-luyen-thpt .frame-20 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .rectangle-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-purple);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .on-luyen-thpt .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .rectangle-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 2px;
+    background-color: var(--light-grey);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h2-regular-font-family);
+    font-weight: var(--h2-regular-font-weight);
+    color: var(--grey);
+    font-size: var(--h2-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--h2-regular-letter-spacing);
+    line-height: var(--h2-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--h2-regular-font-style);
+  }
+  
+  .on-luyen-thpt .frame-21 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -77px;
+  }
+  
+  .on-luyen-thpt .ti-n-luy-n-t-p {
+    position: absolute;
+    width: 1520px;
+    height: 79px;
+    top: 1149px;
+    left: 200px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .span {
+    color: #000000;
+  }
+  
+  .on-luyen-thpt .text-wrapper-17 {
+    color: #ff0b33;
+  }
+  
+  .on-luyen-thpt .p {
+    position: absolute;
+    width: 760px;
+    height: 60px;
+    top: 667px;
+    left: 200px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-18 {
+    position: absolute;
+    width: 760px;
+    height: 60px;
+    top: 667px;
+    left: 960px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .group-3 {
+    position: absolute;
+    width: 486px;
+    height: 230px;
+    top: 808px;
+    left: 1207px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-19 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-20 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 40px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-21 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 80px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-22 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 120px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-23 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 160px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-24 {
+    position: absolute;
+    width: 474px;
+    height: 30px;
+    top: 200px;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .m-c-th-ng-th-o {
+    position: absolute;
+    width: 1520px;
+    height: 79px;
+    top: 588px;
+    left: 200px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-25 {
+    color: #451544;
+  }
+  
+  .on-luyen-thpt .l-ch-s-luy-n {
+    position: absolute;
+    width: 1520px;
+    height: 79px;
+    top: 2089px;
+    left: 200px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .overlap-wrapper {
+    position: absolute;
+    width: 1520px;
+    height: 776px;
+    top: 1229px;
+    left: 250px;
+  }
+  
+  .on-luyen-thpt .overlap-2 {
+    position: relative;
+    height: 776px;
+  }
+  
+  .on-luyen-thpt .frame-22 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .on-luyen-thpt .frame-23 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--stroke-grey);
+  }
+  
+  .on-luyen-thpt .text-wrapper-26 {
+    flex: 1;
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    line-height: var(--h3-line-height);
+    position: relative;
+    font-family: var(--h3-font-family);
+    letter-spacing: var(--h3-letter-spacing);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-27 {
+    width: 161px;
+    position: relative;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-28 {
+    position: relative;
+    width: 160px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .frame-24 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -10px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-29 {
+    position: relative;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: var(--blue);
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-30 {
+    position: relative;
+    width: 161px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #2f51c8;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-31 {
+    font-weight: 600;
+    color: #2f51c8;
+    font-size: 17px;
+    position: relative;
+    width: 160px;
+    font-family: "Inter", Helvetica;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-32 {
+    position: relative;
+    flex: 1;
+    font-family: var(--body-3-bold-font-family);
+    font-weight: var(--body-3-bold-font-weight);
+    color: #451544;
+    font-size: var(--body-3-bold-font-size);
+    letter-spacing: var(--body-3-bold-letter-spacing);
+    line-height: var(--body-3-bold-line-height);
+    font-style: var(--body-3-bold-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-33 {
+    width: 161px;
+    font-weight: 600;
+    color: var(--primary-purple);
+    line-height: 26px;
+    position: relative;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .on-luyen-thpt .text-wrapper-34 {
+    position: relative;
+    width: 160px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: var(--primary-purple);
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .frame-25 {
+    gap: 24px;
+    padding: 24px 12px 24px 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .on-luyen-thpt .text-wrapper-35 {
+    position: relative;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #6a4e64;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-36 {
+    width: 161px;
+    font-weight: var(--body-1-light-font-weight);
+    color: var(--primary-purple);
+    line-height: var(--body-1-light-line-height);
+    position: relative;
+    font-family: var(--body-1-light-font-family);
+    font-size: var(--body-1-light-font-size);
+    text-align: center;
+    letter-spacing: var(--body-1-light-letter-spacing);
+    font-style: var(--body-1-light-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-37 {
+    font-weight: var(--body-1-light-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--body-1-light-font-size);
+    position: relative;
+    width: 160px;
+    font-family: var(--body-1-light-font-family);
+    text-align: center;
+    letter-spacing: var(--body-1-light-letter-spacing);
+    line-height: var(--body-1-light-line-height);
+    font-style: var(--body-1-light-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-38 {
+    position: relative;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #451544;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .frame-26 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 24px 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--stroke-grey);
+  }
+  
+  .on-luyen-thpt .frame-27 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: var(--stroke-grey);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--stroke-grey);
+  }
+  
+  .on-luyen-thpt .text-wrapper-39 {
+    position: relative;
+    flex: 1;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #2f51c8;
+    font-size: 19px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-40 {
+    font-weight: 600;
+    color: #2f51c8;
+    font-size: 19px;
+    position: relative;
+    width: 160px;
+    font-family: "Inter", Helvetica;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .frame-28 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 24px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--stroke-grey);
+  }
+  
+  .on-luyen-thpt .vector-4 {
+    position: absolute;
+    width: 18px;
+    height: 9px;
+    top: 94px;
+    left: 1502px;
+  }
+  
+
+
+  
+  .on-luyen-thpt .vector-5 {
+    position: absolute;
+    width: 18px;
+    height: 9px;
+    top: 670px;
+    left: 1502px;
+
+  }
+  
+  .on-luyen-thpt .vector-6 {
+    position: absolute;
+    width: 18px;
+    height: 9px;
+    top: 734px;
+    left: 1502px;
+  }
+  
+  .on-luyen-thpt .frame-29 {
+    position: absolute;
+    width: 449px;
+    height: 322px;
+    top: 784px;
+    left: 352px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-41 {
+    top: -1px;
+    left: 185px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .overlap-3 {
+    position: absolute;
+    width: 449px;
+    height: 297px;
+    top: 24px;
+    left: 0;
+  }
+  
+  .on-luyen-thpt .overlap-4 {
+    position: absolute;
+    width: 353px;
+    height: 297px;
+    top: 0;
+    left: 48px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-42 {
+    top: 15px;
+    left: 272px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-43 {
+    top: 233px;
+    left: 273px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-44 {
+    top: 273px;
+    left: 137px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-45 {
+    top: 233px;
+    left: 0;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-46 {
+    top: 15px;
+    left: 1px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .group-4 {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    top: 0;
+    left: 39px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-47 {
+    top: 124px;
+    left: 369px;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-48 {
+    top: 124px;
+    left: 0;
+    position: absolute;
+    height: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .frame-30 {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+    position: absolute;
+    top: 2217px;
+    left: 200px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: var(--stroke-grey);
+    scale: 0.8;
+  }
+  
+  .on-luyen-thpt .text-wrapper-49 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--h2-font-family);
+    font-weight: var(--h2-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--h2-font-size);
+    letter-spacing: var(--h2-letter-spacing);
+    line-height: var(--h2-line-height);
+    white-space: nowrap;
+    font-style: var(--h2-font-style);
+  }
+  
+  .on-luyen-thpt .group-5 {
+    position: relative;
+    width: 80%;
+    height: 568.5px;
+  }
+  
+  .on-luyen-thpt .overlap-group-3 {
+    position: relative;
+    width: 1411px;
+    height: 568px;
+  }
+  
+  .on-luyen-thpt .frame-31 {
+    display: flex;
+    width: 1411px;
+    align-items: flex-end;
+    gap: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .on-luyen-thpt .frame-32 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .text-wrapper-50 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #2f51c8;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .text-wrapper-51 {
+    width: fit-content;
+    font-weight: 600;
+    color: #2f51c8;
+    line-height: 24px;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .on-luyen-thpt .frame-33 {
+    display: flex;
+    width: 1366px;
+    align-items: flex-end;
+    position: relative;
+    margin-right: -2.49px;
+  }
+  
+  .on-luyen-thpt .line {
+    width: 2px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .on-luyen-thpt .frame-34 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .on-luyen-thpt .line-2 {
+    width: 100%;
+    height: 1px;
+    margin-top: -1px;
+    object-fit: cover;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .on-luyen-thpt .line-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .on-luyen-thpt .line-4 {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .on-luyen-thpt .frame-35 {
+    display: flex;
+    width: 1271px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+  }
+  
+  .on-luyen-thpt .frame-36 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .rectangle-4 {
+    height: 432px;
+    background-color: #2f51c8;
+    position: relative;
+    width: 40px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-52 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .on-luyen-thpt .frame-37 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 468px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .on-luyen-thpt .rectangle-5 {
+    height: 193px;
+    position: relative;
+    width: 40px;
+  }
+  
+  .on-luyen-thpt .rectangle-6 {
+    position: relative;
+    width: 40px;
+    height: 337px;
+    background-color: #2f51c8;
+  }
+  
+  .on-luyen-thpt .rectangle-7 {
+    height: 385px;
+    background-color: #2f51c8;
+    position: relative;
+    width: 40px;
+  }
+  
+  .on-luyen-thpt .rectangle-8 {
+    height: 433px;
+    margin-top: -1px;
+    background-color: #2f51c8;
+    position: relative;
+    width: 40px;
+  }
+  
+  .on-luyen-thpt .frame-38 {
+    display: flex;
+    flex-direction: column;
+    width: 69px;
+    height: 468px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .on-luyen-thpt .rectangle-9 {
+    height: 241px;
+    background-color: #2f51c8;
+    position: relative;
+    width: 40px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-53 {
+    position: absolute;
+    width: 560px;
+    height: 60px;
+    top: 2979px;
+    left: 200px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-54 {
+    position: absolute;
+    width: 660px;
+    height: 60px;
+    top: 2979px;
+    left: 1060px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .on-luyen-thpt .overlap-5 {
+    position: absolute;
+    width: 541px;
+    height: 420px;
+    top: 3082px;
+    left: 199px;
+  }
+  
+  .on-luyen-thpt .rectangle-10 {
+    position: absolute;
+    width: 790px;
+    height: 420px;
+    top: 0;
+    left: 1px;
+    background-color: #f8fafc;
+    border-radius: 24px;
+  }
+  
+  .on-luyen-thpt .frame-39 {
+    width: 675px;
+    height: 50px;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    top: 102px;
+    left: 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .on-luyen-thpt .text-wrapper-55 {
+    width: 49px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    font-weight: 300;
+    color: var(--primary-purple);
+    line-height: 26px;
+    position: relative;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .on-luyen-thpt .text-wrapper-56 {
+    position: relative;
+    width: 266px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-57 {
+    width: 107px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    font-weight: 400;
+    color: var(--primary-purple);
+    line-height: 26px;
+    position: relative;
+    font-family: "Inter", Helvetica;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .on-luyen-thpt .text-wrapper-58 {
+    position: relative;
+    width: 211px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    margin-right: -12px;
+    font-family: var(--body-1-light-font-family);
+    font-weight: var(--body-1-light-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--body-1-light-font-size);
+    text-align: center;
+    letter-spacing: var(--body-1-light-letter-spacing);
+    line-height: var(--body-1-light-line-height);
+    font-style: var(--body-1-light-font-style);
+  }
+  
+  .on-luyen-thpt .frame-40 {
+    width: 675px;
+    height: 50px;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    top: 162px;
+    left: 1px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .on-luyen-thpt .frame-41 {
+    display: flex;
+    width: 675px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    top: 222px;
+    left: 1px;
+  }
+  
+  .on-luyen-thpt .frame-42 {
+    top: 282px;
+    display: flex;
+    width: 675px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    left: 1px;
+  }
+  
+  .on-luyen-thpt .frame-43 {
+    top: 342px;
+    display: flex;
+    width: 675px;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    left: 1px;
+  }
+  
+  .on-luyen-thpt .frame-44 {
+    width: 717px;
+    gap: 10px;
+    padding: 24px 12px;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--stroke-grey);
+    display: flex;
+    align-items: center;
+  }
+  
+  .on-luyen-thpt .text-wrapper-59 {
+    position: relative;
+    width: 49px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-60 {
+    position: relative;
+    width: 266px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-61 {
+    position: relative;
+    width: 107px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-62 {
+    position: relative;
+    width: 211px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .rectangle-wrapper {
+    position: absolute;
+    width: 8px;
+    height: 278px;
+    top: 102px;
+    left: 770px;
+    background-color: #efefef;
+    border-radius: 10px;
+  }
+  
+  .on-luyen-thpt .rectangle-11 {
+    height: 98px;
+    background-color: #cccccc;
+    border-radius: 10px;
+  }
+  
+  .on-luyen-thpt .overlap-6 {
+    position: absolute;
+    width: 541px;
+    height: 420px;
+    top: 3082px;
+    left: 1009px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-63 {
+    position: relative;
+    width: 310px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-64 {
+    position: relative;
+    width: 107px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+    font-family: var(--body-1-light-font-family);
+    font-weight: var(--body-1-light-font-weight);
+    color: var(--primary-purple);
+    font-size: var(--body-1-light-font-size);
+    text-align: center;
+    letter-spacing: var(--body-1-light-letter-spacing);
+    line-height: var(--body-1-light-line-height);
+    font-style: var(--body-1-light-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-65 {
+    width: 310px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    font-weight: 400;
+    color: #2f51c8;
+    font-size: 17px;
+    line-height: 26px;
+    position: relative;
+    font-family: "Inter", Helvetica;
+    letter-spacing: 0;
+  }
+  
+  .on-luyen-thpt .text-wrapper-66 {
+    position: relative;
+    width: 310px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .text-wrapper-67 {
+    position: relative;
+    width: 193px;
+    font-family: var(--h3-font-family);
+    font-weight: var(--h3-font-weight);
+    color: #ff0b33;
+    font-size: var(--h3-font-size);
+    text-align: center;
+    letter-spacing: var(--h3-letter-spacing);
+    line-height: var(--h3-line-height);
+    font-style: var(--h3-font-style);
+  }
+  
+  .on-luyen-thpt .rectangle-12 {
+    height: 148px;
+    background-color: #cccccc;
+    border-radius: 10px;
+  }
+  
+  .on-luyen-thpt .frame-wrapper {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 113px;
+    left: 509px;
+  }
+  
+  .on-luyen-thpt .frame-45 {
+    background-color: #ff0b33;
+    display: inline-flex;
+    height: 28px;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 100px;
+  }
+  
+  .on-luyen-thpt .text-wrapper-68 {
+    position: relative;
+    width: fit-content;
+    margin-top: -5px;
+    margin-bottom: -3px;
+    font-family: var(--button-1-font-family);
+    font-weight: var(--button-1-font-weight);
+    color: #ffffff;
+    font-size: var(--button-1-font-size);
+    text-align: center;
+    letter-spacing: var(--button-1-letter-spacing);
+    line-height: var(--button-1-line-height);
+    white-space: nowrap;
+    font-style: var(--button-1-font-style);
+  }
+  
+  .on-luyen-thpt .frame-46 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 113px;
+    left: 608px;
+  }
+  
+  .on-luyen-thpt .frame-47 {
+    background-color: #2f51c8;
+    display: inline-flex;
+    height: 28px;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 100px;
+  }
+  
+  .on-luyen-thpt .frame-48 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 173px;
+    left: 509px;
+  }
+  
+  .on-luyen-thpt .frame-49 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 173px;
+    left: 608px;
+  }
+  
+  .on-luyen-thpt .frame-50 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 233px;
+    left: 509px;
+  }
+  
+  .on-luyen-thpt .frame-51 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 233px;
+    left: 608px;
+  }
+  
+  .on-luyen-thpt .frame-52 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 293px;
+    left: 509px;
+  }
+  
+  .on-luyen-thpt .frame-53 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 293px;
+    left: 608px;
+  }
+  
+  .on-luyen-thpt .frame-54 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 353px;
+    left: 509px;
+  }
+  
+  .on-luyen-thpt .frame-55 {
+    display: inline-flex;
+    height: 28px;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 353px;
+    left: 608px;
+  }
+  

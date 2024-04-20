@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/globals.css" />
+    <link rel="stylesheet" href="./style/styleguide.css" />
+    <link rel="stylesheet" href="./style/header.css">
+    <title>header</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="frame">
+                <img class="logo" src="img/logo-1.png" onclick="window.location.href = 'home.html';"/>
+                <div class="group">
+                    <img class="asset" src="img/asset-1-4x-2-1.png" />
+                    <div class="frame-2">
+                        <div class="text-wrapper">Hành trang số</div>
+                        <div class="text-wrapper-2">by AES Group</div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame-3">
+                <div class="frame-4">
+                    <a href='#' class="text-wrapper-3">Trang chủ</a>
+                    <div class="frame-5">
+                        <a href='#' class="text-wrapper-4">Sách điện tử</a>
+                        <img class="vector" src="img/vector-4.svg" />
+                    </div>
+                    <div class="frame-5">
+                        <div id="luyentap" class="text-wrapper-5">Luyện tập</div>
+                        <img class="vector" src="img/vector-4.svg" />
+                    </div>
+                    <div class="frame-5">
+                        <a href='#' class="text-wrapper-4">Thư viện số</a>
+                        <img class="vector" src="img/vector-4.svg" />
+                    </div>
+                    <a href='#' class="text-wrapper-3">Tiện ích</a>
+                    <a href='#' class="text-wrapper-3">Tin tức</a>
+                </div>
+                <div class="frame-6">
+                    <div class="frame-4">
+                        <div class="frame-6">
+                            <button href="#" class="signin-button">Đăng nhập</button>
+                            <button href="#" class="signin-button">Đăng ký</button>
+                        </div>
+                        <button class="button-kich-hoat-sach">
+                            <div class="overlap-group">
+                                <div class="overlap">
+                                    <img class="img" src="img/vector-5.svg" />
+                                </div>
+                                <a href='#' class="text-wrapper-7">Kích hoạt sách</a>
+                            </div>
+                        </button>
+                    </div>
+                    <a href='#'><img class="group-2" src="img/group-482.png" /></a>
+                </div>
+            </div>
+            <div id="subluyentap" class="frame-9">
+              <div class="text-wrapper-11">Luyện tập</div>
+              <div class="frame-10">
+                <div class="frame-11">
+                  <img class="line" src="img/line-28-2.svg" />
+                  <div class="frame-12">
+                    <div class="frame-13">
+                      <div class="text-wrapper-12">Luyện tập</div>
+                      <img class="vector-3" src="img/vector-11.svg" />
+                    </div>
+                    <div class="frame-14">
+                      <div class="text-wrapper-13">Ôn Luyện THPT</div>
+                      <img class="vector-3" src="img/vector-11.svg" />
+                    </div>
+                    <img class="line-2" src="img/line-28-2.svg" />
+                  </div>
+                </div>
+                <div class="frame-11">
+                  <img class="line" src="img/line-28-1.svg" />
+                  <div class="frame-12">
+                    <a href="dashboard.html"><div class="frame-13"><div class="text-wrapper-14">Đánh giá kiến thức</div></div></a>
+                    <a href="luyen_de.html"><div class="frame-14"><div class="text-wrapper-15">Luyện đề</div></div></a>
+                    <a href="hoi_dap_new.html"><div class="frame-13"><div class="text-wrapper-14">Hỏi đáp</div></div> </a> 
+                  </div>
+                </div>
+                <div class="frame-11">
+                  <img class="line" src="img/line-28-2.svg" />
+                  <div class="frame-wrapper"><div class="frame-15"></div></div>
+                </div>
+              </div>
+              <div class="div-wrapper">
+                <div class="frame-16">
+                  <div class="text-wrapper-16">Xem toàn bộ</div>
+                  <div class="group">
+                    <div class="vector-wrapper"><img class="vector" src="img/vector-12.svg" /></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+        
+    </div>
+    <script>
+        // Get the elements by their IDs
+        const luyentap = document.getElementById('luyentap');
+        const subluyentap = document.getElementById('subluyentap');
+    
+        let timeout; // Variable to hold the timeout
+    
+        // Function to show subluyentap
+        function showSubLuyenTap() {
+            clearTimeout(timeout); // Clear any existing timeout
+            subluyentap.style.display = 'inline-flex';
+        }
+    
+        // Function to hide subluyentap after a delay
+        function hideSubLuyenTap() {
+            // Set a timeout to hide subluyentap after 300 milliseconds
+            timeout = setTimeout(() => {
+                subluyentap.style.display = 'none';
+            }, 300);
+        }
+    
+        // Add event listeners to luyentap
+        luyentap.addEventListener('mouseover', showSubLuyenTap);
+        luyentap.addEventListener('mouseout', hideSubLuyenTap);
+    
+        // Add event listeners to subluyentap
+        subluyentap.addEventListener('mouseover', showSubLuyenTap);
+        subluyentap.addEventListener('mouseout', hideSubLuyenTap);
+        </script>
+</body>
+
+</html>
+
