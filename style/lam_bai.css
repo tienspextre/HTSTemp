@@ -1,3 +1,25 @@
+#confirmationBox {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    flex-direction: column;
+}
+
+#dim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000033; /* Semi-transparent black */
+    z-index: 999; /* Ensure it's above other content */
+    display: block; /* Initially hidden */
+}
 
 .lam-bai {
     background-color: #ffffff;

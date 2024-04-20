@@ -531,7 +531,7 @@ a:hover {
     padding: 24px 12px 24px 0px;
     position: relative;
     align-self: stretch;
-    width: 100%;
+    width: calc(100% - 45px);
     flex: 0 0 auto;
     margin-top: -10px;
   }
@@ -612,7 +612,7 @@ a:hover {
     padding: 24px 12px 24px 18px;
     position: relative;
     align-self: stretch;
-    width: 100%;
+    width: calc(100% - 45px);
     flex: 0 0 auto;
     margin-top: -10px;
     display: flex;
@@ -674,7 +674,7 @@ a:hover {
     padding: 24px 12px 24px 18px;
     position: relative;
     align-self: stretch;
-    width: 100%;
+    width: calc(100% - 45px);
     flex: 0 0 auto;
     margin-left: -1px;
     margin-right: -1px;
@@ -746,7 +746,7 @@ a:hover {
   }
   
   .on-luyen-thpt .vector-4 {
-    position: absolute;
+    position: flex;
     width: 18px;
     height: 9px;
     top: 94px;

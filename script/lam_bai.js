@@ -33,29 +33,3 @@ confirmButton.addEventListener('click', function() {
     hideConfirmation();
     // alert('Bài đã được nộp!');
 });
-
-function loadHeaderAndFooter() {
-    // load header
-    fetch("header.html")
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header').innerHTML = data;
-            console.log('load header successfully');
-
-        })
-        .catch(error => console.error("error loading header"));
-
-
-    // load footer
-    fetch('footer.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('footer').innerHTML = data;
-            console.log('load footer successfully');
-
-        })
-        .catch(error => console.error("error loading footer"));
-}
-document.addEventListener('DOMContentLoaded', function() {
-    loadHeaderAndFooter();
-});

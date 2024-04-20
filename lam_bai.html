@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+    
     <header id="header"></header>
     <div class="lam-bai">
         <div class="div">
@@ -1126,7 +1126,7 @@
             <div class="rectangle-13"></div>
             <div class="frame-37">
                 <div class="frame-38">
-                    <a href="xem_diem_2.html"><button class="submitBtn">Nộp bài</button> </a>
+                    <button class="submitBtn" onclick="showConfirmation()">Nộp bài</button>
                 </div>
                 <div class="frame-39">
                     <div class="frame-23">
@@ -1629,9 +1629,25 @@
     </div>
     </div>
 
+    <div id="dim"></div>
+
+    <div id="confirmationBox">
+        <div style="width: 555px; height: 263px; background: white; border-radius: 25px; display: flex; justify-content: center; align-items: center;">
+            <div style="width: 256.50px; height: 73px; text-align: center;">
+                <div style="color: black; font-size: 14.50px; font-family: Inter; font-weight: 300; line-height: 20px; word-wrap: break-word;">Bạn có chắc chắn nộp bài?</div>
+                <div style="display: flex; justify-content: center; align-items: center; gap: 15.50px; margin-top: 20px;">
+                    <div style="padding: 8px 16px; border-radius: 100px; border: 1px #451544 solid; color: #451544; font-size: 14.50px; font-family: Inter; font-weight: 400; line-height: 20px; word-wrap: break-word;">Hủy thao tác</div>
+                    <div style="padding: 8px 16px; border-radius: 100px; background: #FF0B33; color: white; font-size: 14.50px; font-family: Inter; font-weight: 400; line-height: 20px; word-wrap: break-word;">Nộp bài</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
 
     <footer id="footer"></footer>
     <script src="./script/loadFooterHeader.js"></script>
+    <script src="./script/lam_bai.js"></script> 
 
 </body>
 
